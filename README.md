@@ -1,4 +1,5 @@
-Sistema de Gerenciamento de Processos Jurídicos
+Sistema de Gerenciamento de Processos Jurídicos:
+
 Este projeto é uma aplicação web de gerenciamento de processos jurídicos, permitindo que procuradores e clientes interajam com processos de acordo com suas permissões. O sistema foi desenvolvido utilizando Node.js no back-end, MySQL para o banco de dados e React.js no front-end.
 
 Tecnologias Utilizadas:
