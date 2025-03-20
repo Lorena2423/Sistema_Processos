@@ -144,6 +144,6 @@ Funcionalidades extras a serem colocadas Futuramente:
 -Anexar ou desanexar documentos aos processos;
 Consultar e visualizar processos de outros procuradores.
 
-[Diagrama de Entidade Relacionamento](imagens/Diagrama%20de%20entidade%20Relacionamento.drawio)
+[Diagrama de Entidade Relacionamento](imagens/Diagrama%20de%20entidade%20Relacionamento.drawio) que está em imagens.
 
 
