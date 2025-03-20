@@ -135,7 +135,8 @@ Considerações Finais
 Essa documentação descreve as rotas essenciais da API de gerenciamento de processos jurídicos. Ela utiliza autenticação JWT para garantir que apenas usuários autenticados possam acessar os dados, e também faz uso de permissões para garantir que apenas os usuários apropriados possam criar, editar e excluir processos.
 A API foi desenvolvida com o objetivo de permitir que tanto clientes quanto procuradores interajam com os processos de forma controlada, garantindo que cada ação tenha o nível de permissão adequado.
 A documentação foi construída usando o Swagger e pode ser acessada no endpoint /api-docs do servidor.
-Funcionalidades extras a serem colocadas:
+
+Funcionalidades extras a serem colocadas Futuramente:
 -criptografia com o bcryptjs;
 -Filtrar processos separadamente;
 -Distribuição de processos para outro procurador;
