@@ -4,13 +4,13 @@ const db = require('../db'); // Conexão com o banco
 const { authenticateToken } = require('../middleware/auth'); // Importação do middleware
 const router = express.Router();
 
-const secretKey = 'sua_chave_secreta'; // Substitua por algo mais seguro em produção
+const secretKey = 'sua_chave_secreta';
 
 // Rota de login
 router.post('/login', async (req, res) => {
     const { email, password } = req.body;
   
-    console.log("Email recebido:", email); // Log do email recebido
+    console.log("Email recebido:", email); 
   
     const query = 'SELECT * FROM users WHERE email = ?';
     db.query(query, [email], (err, results) => {
@@ -24,7 +24,7 @@ router.post('/login', async (req, res) => {
       console.log("Senha do banco: ", user.password); // Senha armazenada em texto simples
       console.log("Senha fornecida: ", password);    // Senha que veio do Postman
   
-      // Comparando diretamente as senhas em texto simples (idealmente, deve-se usar bcrypt para segurança)
+    
       if (password !== user.password) {
         console.log("Senha inválida");
         return res.status(400).json({ error: 'Credenciais inválidas' });

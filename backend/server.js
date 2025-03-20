@@ -7,11 +7,11 @@ const processRoutes = require('./routes/processRoutes');
 const loginRoutes = require('./routes/loginRoutes'); 
 const registerRoutes = require('./routes/registerRoutes');
 
-// Cria o aplicativo Express
+// criar aplicativo Express
 const app = express();
 
 // Middleware
-app.use(cors()); // Habilitar CORS para todas as origens
+app.use(cors()); 
 app.use(bodyParser.json()); 
 app.use(express.json()); 
 

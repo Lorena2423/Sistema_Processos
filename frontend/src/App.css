@@ -1,0 +1,32 @@
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(193, 191, 206, 0.5);
+}
+
+h1 {
+  color: #5B429E;
+}
+
+button {
+  background-color: #5B429E;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4a3275;
+}
+
+footer {
+  background-color: #B4A7CC;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}

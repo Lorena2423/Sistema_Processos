@@ -22,7 +22,7 @@ router.post("/login", (req, res) => {
 
     const user = results[0];
 
-    // Comparar a senha diretamente (sem criptografia)
+    // Comparar a senha diretamente 
     if (password !== user.password) {
       return res.status(401).json({ success: false, message: "Credenciais inválidas" });
     }

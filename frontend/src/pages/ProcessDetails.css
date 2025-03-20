@@ -1,0 +1,95 @@
+/* Estilização da Página de Detalhes de Processos */
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #E6E5EC;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #5B429E;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.user-icon {
+  font-size: 40px;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #846EC2;
+  border-radius: 5px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.process-header {
+  background-color: #B4A7CC;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #5B429E;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.process-box {
+  background-color: #B4A7CC;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.process-box input, .process-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.process-box input[readonly], .process-box textarea[readonly] {
+  background-color: #f0f0f0;
+}
+
+.edit-button {
+  background-color: #846EC2;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #5B429E;
+}
+
+.access-denied {
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,113 @@
+/* Estilos gerais */
+body {
+  background-color: #E6E5EC;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+h1{
+  text-align: center;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #5B429E;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.user-info {
+  width: 100%;
+  background-color: #846EC2;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.user-icon {
+  font-size: 60px;
+  color: white;
+}
+
+.user-details p {
+  margin: 5px 0;
+}
+
+nav {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.nav-button {
+  width: 100%;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s;
+  gap: 10px;
+}
+
+.nav-button i {
+  font-size: 24px;
+}
+
+.nav-button:hover {
+  background-color: #846EC2;
+}
+
+/* Conteúdo principal */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+header {
+  text-align: right;
+  font-size: 18px;
+  color: #5B429E;
+}
+
+.form-section {
+  margin-top: 20px;
+  background: #B4A7CC;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #5B429E;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #846EC2;
+}
